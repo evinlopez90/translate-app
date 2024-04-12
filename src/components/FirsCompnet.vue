@@ -1,6 +1,6 @@
 <template>
   <div class="w-full h-screen bg-colorOne relative">
-    <img src="/public/logo.svg" alt="logo" class="absolute  top-[20%] left-[45%]">
+    <img src="/public/logo.svg" alt="logo" class="absolute top-[6%] left-[30%]  md:top-[20%] md:left-[45%] ">
     <img src="../assets/hero_img.jpg" alt="" class=" lg:h-3/5 h-[45%] w-full object-cover lg:object-fill">
     <div class=" w-full  bg-transparent -mt-60 lg:-mt-40 gap-5 lg:gap-0  grid  lg:grid-cols-2  place-items-center ">
       <aside class="flex flex-col items-center w-[85%] bg-colorEigh lg:ml-20 h-72 lg:h-80 rounded-3xl">
@@ -104,7 +104,7 @@ const lengueges = ref([
     searchAPI: 'fr'
   },
   {
-    lenguege: 'italinano',
+    lenguege: 'Italian',
     searchAPI: 'it'
   },
   
